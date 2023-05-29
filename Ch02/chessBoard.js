@@ -1,14 +1,14 @@
 const size = 8
-let chessTable = ""
+let chessBoard = ""
 
 for (let a = 0; a < size; a++) {
     for (let b = 0; b < (size / 2); b++) {
         if (a % 2 == 0) {
-            chessTable += "  #"
+            chessBoard += "  #"
         } else {
-            chessTable += "#  "
+            chessBoard += "#  "
         }
     }
-    chessTable += "\n"
+    chessBoard += "\n"
 }
-console.log(chessTable)
+console.log(chessBoard)
